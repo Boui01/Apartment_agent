@@ -1,0 +1,44 @@
+.modal-forgotten {
+    background-color: rgba(73, 73, 73, 0.384);
+}
+.modal-forgotten  .modal-header{
+    background-color: rgba(1, 110, 43, 0.692);
+    color: rgb(238, 238, 238);
+}
+.modal-forgotten .custom-input-forgotten:focus{
+    border-color: rgb(247, 205, 89);
+    box-shadow: 0px 0px 5px rgb(236, 192, 70);
+} 
+Button.btn-forgotten{
+    position: relative;
+    margin-left: 83%;
+    background-color: rgba(236, 192, 70, 0.904);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(82, 82, 82);
+    border-color:rgba(236, 192, 70, 0.747);
+}
+Button.btn-forgotten:hover{
+    background-color: rgb(238, 189, 53);
+    color: rgb(255, 249, 249);
+    text-shadow: 0px 0px 10px rgb(245, 245, 245);
+    border-color:rgb(238, 189, 53);
+}
+.modal-forgotten Button.btn-forgotten:focus{
+    position: relative;
+    margin-left: 83%;
+    background-color: rgba(236, 192, 70, 0.904);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(82, 82, 82);
+    border-color:rgba(236, 192, 70, 0.747);
+    box-shadow: none;
+}
+.modal-forgotten Button.btn-forgotten:active{
+    position: relative;
+    margin-left: 83%;
+    background-color: rgba(236, 192, 70, 0.904);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(82, 82, 82);
+    border-color:rgba(236, 192, 70, 0.747);
+    border-color:rgba(236, 192, 70, 0.747);
+    box-shadow: none;
+}

@@ -1,0 +1,24 @@
+.modal-error{
+    background-color: rgba(158, 158, 158, 0.295);
+}
+.modal-error .modal-error-header{
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+.modal-error  .modal-content{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40%;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    padding: 2%;
+}
+.modal-error .block-error-icon{
+    margin: 0;
+}
+.modal-error .block-error-text{
+    margin: 0;
+    margin-top: 5%;
+    color: rgb(126, 126, 126);
+}

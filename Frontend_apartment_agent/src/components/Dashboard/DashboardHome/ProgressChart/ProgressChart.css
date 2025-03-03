@@ -1,0 +1,88 @@
+.block-chart-main-dashboard-cercle{
+    display: flex;
+    margin: 1% 10%;
+    width: 100%;
+    height: 100%;
+}
+.block-chart-dashboard-cercle:nth-child(1){
+    margin-left: 6%;
+    padding: 10px;
+    border: 1px solid rgba(175, 175, 175, 0.459);
+}
+.block-chart-dashboard-cercle:nth-child(2){
+    position: relative;
+    right: 4%;
+    height: 485px;
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(175, 175, 175, 0.459);
+    box-shadow: -5px 4px 10px rgba(175, 175, 175, 0.459);
+    padding: 2%;
+}
+.progress-cercle-dashboard{
+    width: 65%;
+    height: 65%;
+}
+
+.row.block-chart-dashboard-graph{
+    padding: 2%;
+    width: 100%;
+    height: 400px;
+    background-color: azure;
+}
+
+.d_slide_next_2{
+    animation: slid-graph-next-2 1s forwards;
+}
+.d_slide_back_2{
+    animation: slid-graph-back-2 1s forwards;
+}
+
+.block-chart-dashboard-graph div.d_slide_next{ 
+    animation: slid-graph-next 1s forwards;
+}
+.block-chart-dashboard-graph div.d_slide_back{ 
+    animation: slid-graph-back 1s forwards;
+}
+
+@keyframes slid-graph-next {
+    from{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    to{
+        opacity: 0;
+        transform: translateX(150%);
+    }
+}
+@keyframes slid-graph-next-2 {
+    from{
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+@keyframes slid-graph-back {
+    from{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    to{
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+}@keyframes slid-graph-back-2 {
+    from{
+        opacity: 0;
+        transform: translateX(150%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

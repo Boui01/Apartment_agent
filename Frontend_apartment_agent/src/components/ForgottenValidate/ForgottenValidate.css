@@ -1,0 +1,44 @@
+.videoBackground-forgottenvalidate{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire container */
+    z-index: -1;
+
+    opacity: 90%;
+  }
+  .block-forgottenvalidate-main{
+    position: relative;
+    margin: 5% 30%;
+    padding: 2%;   
+    text-align: center;
+    border: 1px solid rgba(141, 141, 141, 0.719);
+    box-shadow: 5px 4px 5px rgb(53, 53, 53);
+    border-radius: 5px;
+
+    background-color: rgba(255, 255, 255, 0.795);
+  }
+  .text-head-forgottenvalidate{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+  }
+  form .form-control:focus{
+    border-color: rgb(255, 196, 0);
+    box-shadow: 0px 0px  10px bisque;
+  }
+  .btn.custom-confirm-forgottenvalidate{
+    margin-top: 3%;
+    background-color: rgb(250, 219, 44);
+    box-shadow: 3px 2px 4px rgba(250, 215, 17, 0.904);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.938);
+    border-right: 2px solid rgba(255, 255, 255, 0.938);
+    color: aliceblue;
+    transition: all 0.3s ease;
+  }
+  .btn.custom-confirm-forgottenvalidate:hover{
+    transform: scale(0.98);
+    box-shadow: none;
+    background-color: rgb(252, 246, 214);
+    color: rgb(243, 208, 54);
+  }

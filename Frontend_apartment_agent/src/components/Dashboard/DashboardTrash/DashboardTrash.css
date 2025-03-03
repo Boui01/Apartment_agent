@@ -1,0 +1,26 @@
+.custom-head-text-dashboard-trash{
+    text-align: center;
+    margin: 65px 0% 0% 0%;
+    padding: 1%;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.custom-head-text-dashboard-trash h3{
+    font-weight: 700;
+    color: #000000;
+}
+.custom-navbar-dashboard-trash p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+select.form-control-selected-PopupDashboardTrash option.active-selected-PopupDashboardTrash {
+    background-color: rgb(126, 126, 126);
+    color: rgb(255, 255, 255);
+}
+.non-active-selected-PopupDashboardTrash {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
